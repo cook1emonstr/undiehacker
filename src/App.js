@@ -38,11 +38,11 @@ const About = () => (
 
 const Poetry = () => (
     <div className='poetry'>
-        <h6>Death Haiku</h6>
+        <h5>Death Haiku</h5>
         <p>
-            To much drink last night
-            A sad awakening now
-            For I now am Rosie
+            To much drink last night<br />
+            A sad awakening now<br />
+            For I now am Rosie <br />
         </p>
     </div>
 );
