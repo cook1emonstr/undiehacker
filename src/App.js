@@ -40,7 +40,7 @@ const Poetry = () => (
     <div className='poetry'>
         <h5>Death Haiku</h5>
         <p>
-            To much drink last night<br />
+            To[sic] much drink last night<br />
             A sad awakening now<br />
             For I now am Rosie <br />
         </p>
