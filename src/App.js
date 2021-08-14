@@ -30,7 +30,6 @@ const Home = () => (
 
 const About = () => (
     <div className='about'>
-      <h1>About Me</h1>
       <p>Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
       <p>Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
     </div>
@@ -38,8 +37,12 @@ const About = () => (
 
 const Poetry = () => (
     <div className='poetry'>
-      <h1>Poetry</h1>
-        <p>Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
+        <h6>Death Haiku</h6>
+        <p>
+            To much drink last night
+            A sad awakening now
+            For I now am Rosie
+        </p>
     </div>
 );
 
