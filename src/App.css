@@ -44,7 +44,11 @@ body {
 
 body::before {
   content: "";
-  background: url(img.png);
+  background: url(Inkedjessica-biel_LI.jpg) no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
   opacity: .1;
   top: 0;
   left: 0;

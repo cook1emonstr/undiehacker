@@ -23,7 +23,7 @@ const Main = () => (
 
 const Home = () => (
     <div className='home'>
-        <h1>An Eve Jobs Fansite</h1>
+        <h1>An <strike>Eve Jobs</strike> Jessica Biel Fansite</h1>
         <h3>And Haven for poetry enthusiasts and Rosie apologists</h3>
     </div>
 );
