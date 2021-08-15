@@ -16,8 +16,8 @@ export const Poetry = () => (
         </p>
         <h5>Docking Haiku</h5>
         <p>
-            Two skins of foreskins <br/>
-            Connected as one together <br/>
+            Facing foreskins <br/>
+            Encapsulating as one <br/>
             Tip to tip encased <br/>
         </p>
     </div>
