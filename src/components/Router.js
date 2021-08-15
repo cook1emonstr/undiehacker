@@ -4,7 +4,7 @@ import About from "../pages/About";
 import Poetry from "../pages/Poetry";
 import React from "react";
 
-export const Main = () => (
+export const Router = () => (
     <Switch>
         <Route exact path='/' component={Home}/>
         <Route exact path='/about' component={About}/>
@@ -12,4 +12,4 @@ export const Main = () => (
     </Switch>
 );
 
-export default Main;
+export default Router;

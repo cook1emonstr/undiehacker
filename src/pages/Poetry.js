@@ -14,6 +14,12 @@ export const Poetry = () => (
             Not a toilet to be found <br/>
             This trip to[sic] in tents <br/>
         </p>
+        <h5>Docking Haiku</h5>
+        <p>
+            Two skins of foreskins <br/>
+            Connected as one together <br/>
+            Tip to tip encased <br/>
+        </p>
     </div>
 );
 

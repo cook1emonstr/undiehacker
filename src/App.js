@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import logo from './undies.svg';
-import Main from "./components/Main";
+import Router from "./components/Router";
 import Navigation from "./components/Navigation";
 
 const App = () => (
@@ -10,11 +10,9 @@ const App = () => (
             <h1>UndieHacker  <img src={logo} className="App-logo" alt="logo" /></h1>
             <Navigation />
         </header>
-
-
-    <div className='main-wrapper'>
-        <Main />
-    </div>
+        <div className='main-wrapper'>
+            <Router />
+        </div>
     </div>
 );
 
