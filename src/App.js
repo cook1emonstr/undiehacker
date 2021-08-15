@@ -3,13 +3,16 @@ import './App.css';
 import logo from './undies.svg';
 import Router from "./components/Router";
 import Navigation from "./components/Navigation";
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const App = () => (
     <div className='App'>
-        <header className="App-header">
-            <h1>UndieHacker  <img src={logo} className="App-logo" alt="logo" /></h1>
-            <Navigation />
-        </header>
+        <div className="App-header-wrapper">
+            <header className="App-header">
+                <h1>UndieHacker  <img src={logo} className="App-logo" alt="logo" /></h1>
+                <Navigation />
+            </header>
+        </div>
         <div className='main-wrapper'>
             <Router />
         </div>
