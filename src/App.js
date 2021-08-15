@@ -23,7 +23,7 @@ const Main = () => (
 
 const Home = () => (
     <div className='home'>
-        <h1>An <strike>Eve Jobs</strike> Jessica Biel Fansite</h1>
+        <h1>A<strike>n</strike> <strike>Eve Jobs</strike> Jessica Biel Fansite</h1>
         <h3>And Haven for poetry enthusiasts and Rosie apologists</h3>
     </div>
 );
@@ -43,6 +43,12 @@ const Poetry = () => (
             To[sic] much drink last night<br />
             A sad awakening now<br />
             For I now am Rosie <br />
+        </p>
+        <h5>Camping Haiku</h5>
+        <p>
+            Uncomfortable <br />
+            Not a toilet to be found <br />
+            This trip to[sic] in tents <br />
         </p>
     </div>
 );
