@@ -1,57 +1,8 @@
 import React from 'react';
 import './App.css';
 import logo from './undies.svg';
-import { NavLink, Switch, Route } from 'react-router-dom';
-
-const Navigation = () => (
-    <nav>
-      <ul>
-        <li><NavLink exact activeClassName="current" to='/'>Home</NavLink></li>
-        <li><NavLink exact activeClassName="current" to='/about'>About</NavLink></li>
-        <li><NavLink exact activeClassName="current" to='/poetry'>Poetry</NavLink></li>
-      </ul>
-    </nav>
-);
-
-const Main = () => (
-    <Switch>
-      <Route exact path='/' component={Home}></Route>
-      <Route exact path='/about' component={About}></Route>
-      <Route exact path='/poetry' component={Poetry}></Route>
-    </Switch>
-);
-
-const Home = () => (
-    <div className='home'>
-        <h1>A<strike>n</strike> <strike>Eve Jobs</strike> Jessica Biel Fansite</h1>
-        <h3>And Haven for poetry enthusiasts and Rosie apologists</h3>
-    </div>
-);
-
-const About = () => (
-    <div className='about'>
-      <p>
-          I like having my tummy rubbed.
-      </p>
-    </div>
-);
-
-const Poetry = () => (
-    <div className='poetry'>
-        <h5>Death Haiku</h5>
-        <p>
-            To[sic] much drink last night<br />
-            A sad awakening now<br />
-            For I now am Rosie <br />
-        </p>
-        <h5>Camping Haiku</h5>
-        <p>
-            Uncomfortable <br />
-            Not a toilet to be found <br />
-            This trip to[sic] in tents <br />
-        </p>
-    </div>
-);
+import Main from "./components/Main";
+import Navigation from "./components/Navigation";
 
 const App = () => (
     <div className='App'>

@@ -1,0 +1,20 @@
+import React from "react";
+
+export const Poetry = () => (
+    <div className='poetry'>
+        <h5>Death Haiku</h5>
+        <p>
+            To[sic] much drink last night<br/>
+            A sad awakening now<br/>
+            For I now am Rosie <br/>
+        </p>
+        <h5>Camping Haiku</h5>
+        <p>
+            Uncomfortable <br/>
+            Not a toilet to be found <br/>
+            This trip to[sic] in tents <br/>
+        </p>
+    </div>
+);
+
+export default Poetry;
